@@ -1,0 +1,180 @@
+// !$*UTF8*$!
+{
+	089C1669FE841209C02AAC07 /* Project object */ = {
+		activeArchitecturePreference = i386;
+		activeBuildConfigurationName = Release;
+		activeExecutable = CCBF60490C2A1AA800DEA215 /* Acorn */;
+		activeTarget = 8D5B49AC048680CD000E48DA /* ColorControls */;
+		addToTargets = (
+			8D5B49AC048680CD000E48DA /* ColorControls */,
+		);
+		codeSenseManager = CCBF60370C2A19D400DEA215 /* Code sense */;
+		executables = (
+			CCBF60490C2A1AA800DEA215 /* Acorn */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					10,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					10,
+					60,
+					20,
+					48.16259765625,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 304014782;
+			PBXWorkspaceStateSaveDate = 304014782;
+		};
+		sourceControlManager = CCBF60360C2A19D400DEA215 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8D5B49AC048680CD000E48DA /* ColorControls */ = {
+		activeExec = 0;
+	};
+	CC88BDAB0C2A1AF40023CBBE /* ColorControlsPlugin.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1479, 987}}";
+			sepNavSelRange = "{212, 0}";
+			sepNavVisRange = "{0, 388}";
+			sepNavVisRect = "{{0, 0}, {825, 892}}";
+		};
+	};
+	CC88BDAC0C2A1AF40023CBBE /* ColorControlsPlugin.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1396, 1245}}";
+			sepNavSelRange = "{1452, 0}";
+			sepNavVisRange = "{393, 1820}";
+			sepNavVisRect = "{{0, 175}, {1017, 819}}";
+		};
+	};
+	CCBF60360C2A19D400DEA215 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+		scmType = "";
+	};
+	CCBF60370C2A19D400DEA215 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	CCBF60490C2A1AA800DEA215 /* Acorn */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+			YES,
+		);
+		argumentStrings = (
+			"-plugin /builds/Release/ColorControls.acplugin",
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+			"PBXLSLaunchAction-0" = {
+				PBXLSLaunchAction = 0;
+				PBXLSLaunchStartAction = 1;
+				PBXLSLaunchStdioStyle = 2;
+				PBXLSLaunchStyle = 0;
+				class = PBXLSRunLaunchConfig;
+				commandLineArgs = (
+				);
+				displayName = "Executable Runner";
+				environment = {
+				};
+				identifier = com.apple.Xcode.launch.runConfig;
+				remoteHostInfo = "";
+				startActionInfo = "";
+			};
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		launchableReference = CCBF604A0C2A1AA800DEA215 /* Acorn.app */;
+		libgmallocEnabled = 0;
+		name = Acorn;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	CCBF604A0C2A1AA800DEA215 /* Acorn.app */ = {
+		isa = PBXFileReference;
+		explicitFileType = wrapper.application;
+		name = Acorn.app;
+		path = /builds/Debug/Acorn.app;
+		sourceTree = "<absolute>";
+	};
+	CCBF605C0C2A1AD400DEA215 /* CCWindowControler.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1479, 987}}";
+			sepNavSelRange = "{245, 0}";
+			sepNavVisRange = "{0, 593}";
+			sepNavVisRect = "{{0, 0}, {1398, 901}}";
+		};
+	};
+	CCBF605D0C2A1AD400DEA215 /* CCWindowControler.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1479, 1755}}";
+			sepNavSelRange = "{1393, 22}";
+			sepNavVisRange = "{783, 1483}";
+			sepNavVisRect = "{{0, 0}, {1236, 852}}";
+		};
+	};
+	CCF900860C29E1D800BA85E7 /* ACPlugin.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1396, 4755}}";
+			sepNavSelRange = "{7600, 0}";
+			sepNavVisRange = "{4118, 1334}";
+			sepNavVisRect = "{{0, 632}, {1236, 852}}";
+		};
+	};
+}

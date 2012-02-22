@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 44;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D576314048677EA00EA77CD /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AA1909FFE8422F4C02AAC07 /* CoreFoundation.framework */; };
+		8D5B49A804867FD3000E48DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8D5B49A704867FD3000E48DA /* InfoPlist.strings */; };
+		C86B05270671AA6E00DD9006 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C86B05260671AA6E00DD9006 /* CoreServices.framework */; };
+		CC0365D10F11C27F00A2F6DC /* FMDatabaseAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = CC0365CB0F11C27F00A2F6DC /* FMDatabaseAdditions.h */; };
+		CC0365D20F11C27F00A2F6DC /* FMDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = CC0365CC0F11C27F00A2F6DC /* FMDatabase.h */; };
+		CC0365D30F11C27F00A2F6DC /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0365CD0F11C27F00A2F6DC /* FMResultSet.m */; };
+		CC0365D40F11C27F00A2F6DC /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0365CE0F11C27F00A2F6DC /* FMDatabase.m */; };
+		CC0365D50F11C27F00A2F6DC /* FMResultSet.h in Headers */ = {isa = PBXBuildFile; fileRef = CC0365CF0F11C27F00A2F6DC /* FMResultSet.h */; };
+		CC0365D60F11C27F00A2F6DC /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0365D00F11C27F00A2F6DC /* FMDatabaseAdditions.m */; };
+		CC0366020F11C4B200A2F6DC /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CC0366010F11C4B200A2F6DC /* libsqlite3.dylib */; };
+		CC1A9B0A0CA89594001570F4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC1A9B090CA89594001570F4 /* Cocoa.framework */; };
+		CC1A9B5C0CA89A71001570F4 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CC1A9B5B0CA89A71001570F4 /* libz.dylib */; };
+		CC68BDEF0DCAB80C006566A7 /* ACShapeImage.m in Sources */ = {isa = PBXBuildFile; fileRef = CC68BDED0DCAB80C006566A7 /* ACShapeImage.m */; };
+		CC68BDF00DCAB80C006566A7 /* ACShapeImage.h in Headers */ = {isa = PBXBuildFile; fileRef = CC68BDEE0DCAB80C006566A7 /* ACShapeImage.h */; };
+		CC9ECE240CA8BEC400DD5B0C /* ACBitmapLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = CC9ECE0F0CA8BEC400DD5B0C /* ACBitmapLayer.h */; };
+		CC9ECE250CA8BEC400DD5B0C /* ACBitmapLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9ECE100CA8BEC400DD5B0C /* ACBitmapLayer.m */; };
+		CC9ECE260CA8BEC400DD5B0C /* ACCircle.h in Headers */ = {isa = PBXBuildFile; fileRef = CC9ECE110CA8BEC400DD5B0C /* ACCircle.h */; };
+		CC9ECE270CA8BEC400DD5B0C /* ACCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9ECE120CA8BEC400DD5B0C /* ACCircle.m */; };
+		CC9ECE280CA8BEC400DD5B0C /* ACGraphic.h in Headers */ = {isa = PBXBuildFile; fileRef = CC9ECE130CA8BEC400DD5B0C /* ACGraphic.h */; };
+		CC9ECE290CA8BEC400DD5B0C /* ACGraphic.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9ECE140CA8BEC400DD5B0C /* ACGraphic.m */; };
+		CC9ECE2A0CA8BEC400DD5B0C /* ACImage.h in Headers */ = {isa = PBXBuildFile; fileRef = CC9ECE150CA8BEC400DD5B0C /* ACImage.h */; };
+		CC9ECE2B0CA8BEC400DD5B0C /* ACImage.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9ECE160CA8BEC400DD5B0C /* ACImage.m */; };
+		CC9ECE2C0CA8BEC400DD5B0C /* ACLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = CC9ECE170CA8BEC400DD5B0C /* ACLayer.h */; };
+		CC9ECE2D0CA8BEC400DD5B0C /* ACLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9ECE180CA8BEC400DD5B0C /* ACLayer.m */; };
+		CC9ECE2E0CA8BEC400DD5B0C /* ACLine.h in Headers */ = {isa = PBXBuildFile; fileRef = CC9ECE190CA8BEC400DD5B0C /* ACLine.h */; };
+		CC9ECE2F0CA8BEC400DD5B0C /* ACLine.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9ECE1A0CA8BEC400DD5B0C /* ACLine.m */; };
+		CC9ECE300CA8BEC400DD5B0C /* ACRect.h in Headers */ = {isa = PBXBuildFile; fileRef = CC9ECE1B0CA8BEC400DD5B0C /* ACRect.h */; };
+		CC9ECE310CA8BEC400DD5B0C /* ACRect.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9ECE1C0CA8BEC400DD5B0C /* ACRect.m */; };
+		CC9ECE320CA8BEC400DD5B0C /* ACShapeLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = CC9ECE1D0CA8BEC400DD5B0C /* ACShapeLayer.h */; };
+		CC9ECE330CA8BEC400DD5B0C /* ACShapeLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9ECE1E0CA8BEC400DD5B0C /* ACShapeLayer.m */; };
+		CC9ECE340CA8BEC400DD5B0C /* ACText.h in Headers */ = {isa = PBXBuildFile; fileRef = CC9ECE1F0CA8BEC400DD5B0C /* ACText.h */; };
+		CC9ECE350CA8BEC400DD5B0C /* ACText.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9ECE200CA8BEC400DD5B0C /* ACText.m */; };
+		CC9ECE360CA8BEC400DD5B0C /* GeneratePreviewForURL.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9ECE210CA8BEC400DD5B0C /* GeneratePreviewForURL.m */; };
+		CC9ECE370CA8BEC400DD5B0C /* GenerateThumbnailForURL.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9ECE220CA8BEC400DD5B0C /* GenerateThumbnailForURL.m */; };
+		CC9ECE380CA8BEC400DD5B0C /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = CC9ECE230CA8BEC400DD5B0C /* main.c */; };
+		F28CFBFD0A3EC0AF000ABFF5 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F28CFBFC0A3EC0AF000ABFF5 /* ApplicationServices.framework */; };
+		F28CFC030A3EC0C6000ABFF5 /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F28CFC020A3EC0C6000ABFF5 /* QuickLook.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C167EFE841241C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0AA1909FFE8422F4C02AAC07 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = /System/Library/Frameworks/CoreFoundation.framework; sourceTree = "<absolute>"; };
+		8D576316048677EA00EA77CD /* AcornQL.qlgenerator */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AcornQL.qlgenerator; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D576317048677EA00EA77CD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C86B05260671AA6E00DD9006 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = /System/Library/Frameworks/CoreServices.framework; sourceTree = "<absolute>"; };
+		CC0365CB0F11C27F00A2F6DC /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		CC0365CC0F11C27F00A2F6DC /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		CC0365CD0F11C27F00A2F6DC /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		CC0365CE0F11C27F00A2F6DC /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		CC0365CF0F11C27F00A2F6DC /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		CC0365D00F11C27F00A2F6DC /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		CC0366010F11C4B200A2F6DC /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = /usr/lib/libsqlite3.dylib; sourceTree = "<absolute>"; };
+		CC03662B0F11C5D400A2F6DC /* QL-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "QL-Info.plist"; sourceTree = "<group>"; };
+		CC1A9B090CA89594001570F4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		CC1A9B5B0CA89A71001570F4 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = /usr/lib/libz.dylib; sourceTree = "<absolute>"; };
+		CC68BDED0DCAB80C006566A7 /* ACShapeImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ACShapeImage.m; path = src/ACShapeImage.m; sourceTree = "<group>"; };
+		CC68BDEE0DCAB80C006566A7 /* ACShapeImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ACShapeImage.h; path = src/ACShapeImage.h; sourceTree = "<group>"; };
+		CC9ECE0F0CA8BEC400DD5B0C /* ACBitmapLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ACBitmapLayer.h; path = src/ACBitmapLayer.h; sourceTree = "<group>"; };
+		CC9ECE100CA8BEC400DD5B0C /* ACBitmapLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ACBitmapLayer.m; path = src/ACBitmapLayer.m; sourceTree = "<group>"; };
+		CC9ECE110CA8BEC400DD5B0C /* ACCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ACCircle.h; path = src/ACCircle.h; sourceTree = "<group>"; };
+		CC9ECE120CA8BEC400DD5B0C /* ACCircle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ACCircle.m; path = src/ACCircle.m; sourceTree = "<group>"; };
+		CC9ECE130CA8BEC400DD5B0C /* ACGraphic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ACGraphic.h; path = src/ACGraphic.h; sourceTree = "<group>"; };
+		CC9ECE140CA8BEC400DD5B0C /* ACGraphic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ACGraphic.m; path = src/ACGraphic.m; sourceTree = "<group>"; };
+		CC9ECE150CA8BEC400DD5B0C /* ACImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ACImage.h; path = src/ACImage.h; sourceTree = "<group>"; };
+		CC9ECE160CA8BEC400DD5B0C /* ACImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ACImage.m; path = src/ACImage.m; sourceTree = "<group>"; };
+		CC9ECE170CA8BEC400DD5B0C /* ACLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ACLayer.h; path = src/ACLayer.h; sourceTree = "<group>"; };
+		CC9ECE180CA8BEC400DD5B0C /* ACLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ACLayer.m; path = src/ACLayer.m; sourceTree = "<group>"; };
+		CC9ECE190CA8BEC400DD5B0C /* ACLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ACLine.h; path = src/ACLine.h; sourceTree = "<group>"; };
+		CC9ECE1A0CA8BEC400DD5B0C /* ACLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ACLine.m; path = src/ACLine.m; sourceTree = "<group>"; };
+		CC9ECE1B0CA8BEC400DD5B0C /* ACRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ACRect.h; path = src/ACRect.h; sourceTree = "<group>"; };
+		CC9ECE1C0CA8BEC400DD5B0C /* ACRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ACRect.m; path = src/ACRect.m; sourceTree = "<group>"; };
+		CC9ECE1D0CA8BEC400DD5B0C /* ACShapeLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ACShapeLayer.h; path = src/ACShapeLayer.h; sourceTree = "<group>"; };
+		CC9ECE1E0CA8BEC400DD5B0C /* ACShapeLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ACShapeLayer.m; path = src/ACShapeLayer.m; sourceTree = "<group>"; };
+		CC9ECE1F0CA8BEC400DD5B0C /* ACText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ACText.h; path = src/ACText.h; sourceTree = "<group>"; };
+		CC9ECE200CA8BEC400DD5B0C /* ACText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ACText.m; path = src/ACText.m; sourceTree = "<group>"; };
+		CC9ECE210CA8BEC400DD5B0C /* GeneratePreviewForURL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GeneratePreviewForURL.m; path = src/GeneratePreviewForURL.m; sourceTree = "<group>"; };
+		CC9ECE220CA8BEC400DD5B0C /* GenerateThumbnailForURL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GenerateThumbnailForURL.m; path = src/GenerateThumbnailForURL.m; sourceTree = "<group>"; };
+		CC9ECE230CA8BEC400DD5B0C /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = main.c; path = src/main.c; sourceTree = "<group>"; };
+		F28CFBFC0A3EC0AF000ABFF5 /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = /System/Library/Frameworks/ApplicationServices.framework; sourceTree = "<absolute>"; };
+		F28CFC020A3EC0C6000ABFF5 /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = /System/Library/Frameworks/QuickLook.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D576313048677EA00EA77CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D576314048677EA00EA77CD /* CoreFoundation.framework in Frameworks */,
+				C86B05270671AA6E00DD9006 /* CoreServices.framework in Frameworks */,
+				F28CFBFD0A3EC0AF000ABFF5 /* ApplicationServices.framework in Frameworks */,
+				F28CFC030A3EC0C6000ABFF5 /* QuickLook.framework in Frameworks */,
+				CC1A9B0A0CA89594001570F4 /* Cocoa.framework in Frameworks */,
+				CC1A9B5C0CA89A71001570F4 /* libz.dylib in Frameworks */,
+				CC0366020F11C4B200A2F6DC /* libsqlite3.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* AcornQL */ = {
+			isa = PBXGroup;
+			children = (
+				CC0365C60F11C26200A2F6DC /* fmdb */,
+				08FB77AFFE84173DC02AAC07 /* Source */,
+				089C167CFE841241C02AAC07 /* Resources */,
+				089C1671FE841209C02AAC07 /* External Frameworks and Libraries */,
+				19C28FB6FE9D52B211CA2CBB /* Products */,
+			);
+			name = AcornQL;
+			sourceTree = "<group>";
+		};
+		089C1671FE841209C02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				CC0366010F11C4B200A2F6DC /* libsqlite3.dylib */,
+				CC1A9B5B0CA89A71001570F4 /* libz.dylib */,
+				CC1A9B090CA89594001570F4 /* Cocoa.framework */,
+				F28CFC020A3EC0C6000ABFF5 /* QuickLook.framework */,
+				F28CFBFC0A3EC0AF000ABFF5 /* ApplicationServices.framework */,
+				C86B05260671AA6E00DD9006 /* CoreServices.framework */,
+				0AA1909FFE8422F4C02AAC07 /* CoreFoundation.framework */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CC03662B0F11C5D400A2F6DC /* QL-Info.plist */,
+				8D576317048677EA00EA77CD /* Info.plist */,
+				8D5B49A704867FD3000E48DA /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AFFE84173DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				CC68BDED0DCAB80C006566A7 /* ACShapeImage.m */,
+				CC68BDEE0DCAB80C006566A7 /* ACShapeImage.h */,
+				CC9ECE0F0CA8BEC400DD5B0C /* ACBitmapLayer.h */,
+				CC9ECE100CA8BEC400DD5B0C /* ACBitmapLayer.m */,
+				CC9ECE110CA8BEC400DD5B0C /* ACCircle.h */,
+				CC9ECE120CA8BEC400DD5B0C /* ACCircle.m */,
+				CC9ECE130CA8BEC400DD5B0C /* ACGraphic.h */,
+				CC9ECE140CA8BEC400DD5B0C /* ACGraphic.m */,
+				CC9ECE150CA8BEC400DD5B0C /* ACImage.h */,
+				CC9ECE160CA8BEC400DD5B0C /* ACImage.m */,
+				CC9ECE170CA8BEC400DD5B0C /* ACLayer.h */,
+				CC9ECE180CA8BEC400DD5B0C /* ACLayer.m */,
+				CC9ECE190CA8BEC400DD5B0C /* ACLine.h */,
+				CC9ECE1A0CA8BEC400DD5B0C /* ACLine.m */,
+				CC9ECE1B0CA8BEC400DD5B0C /* ACRect.h */,
+				CC9ECE1C0CA8BEC400DD5B0C /* ACRect.m */,
+				CC9ECE1D0CA8BEC400DD5B0C /* ACShapeLayer.h */,
+				CC9ECE1E0CA8BEC400DD5B0C /* ACShapeLayer.m */,
+				CC9ECE1F0CA8BEC400DD5B0C /* ACText.h */,
+				CC9ECE200CA8BEC400DD5B0C /* ACText.m */,
+				CC9ECE210CA8BEC400DD5B0C /* GeneratePreviewForURL.m */,
+				CC9ECE220CA8BEC400DD5B0C /* GenerateThumbnailForURL.m */,
+				CC9ECE230CA8BEC400DD5B0C /* main.c */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		19C28FB6FE9D52B211CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D576316048677EA00EA77CD /* AcornQL.qlgenerator */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC0365C60F11C26200A2F6DC /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				CC0365CB0F11C27F00A2F6DC /* FMDatabaseAdditions.h */,
+				CC0365CC0F11C27F00A2F6DC /* FMDatabase.h */,
+				CC0365CD0F11C27F00A2F6DC /* FMResultSet.m */,
+				CC0365CE0F11C27F00A2F6DC /* FMDatabase.m */,
+				CC0365CF0F11C27F00A2F6DC /* FMResultSet.h */,
+				CC0365D00F11C27F00A2F6DC /* FMDatabaseAdditions.m */,
+			);
+			path = fmdb;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8D57630E048677EA00EA77CD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC9ECE240CA8BEC400DD5B0C /* ACBitmapLayer.h in Headers */,
+				CC9ECE260CA8BEC400DD5B0C /* ACCircle.h in Headers */,
+				CC9ECE280CA8BEC400DD5B0C /* ACGraphic.h in Headers */,
+				CC9ECE2A0CA8BEC400DD5B0C /* ACImage.h in Headers */,
+				CC9ECE2C0CA8BEC400DD5B0C /* ACLayer.h in Headers */,
+				CC9ECE2E0CA8BEC400DD5B0C /* ACLine.h in Headers */,
+				CC9ECE300CA8BEC400DD5B0C /* ACRect.h in Headers */,
+				CC9ECE320CA8BEC400DD5B0C /* ACShapeLayer.h in Headers */,
+				CC9ECE340CA8BEC400DD5B0C /* ACText.h in Headers */,
+				CC68BDF00DCAB80C006566A7 /* ACShapeImage.h in Headers */,
+				CC0365D10F11C27F00A2F6DC /* FMDatabaseAdditions.h in Headers */,
+				CC0365D20F11C27F00A2F6DC /* FMDatabase.h in Headers */,
+				CC0365D50F11C27F00A2F6DC /* FMResultSet.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8D57630D048677EA00EA77CD /* AcornQL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CA3261E0896AD4900168862 /* Build configuration list for PBXNativeTarget "AcornQL" */;
+			buildPhases = (
+				8D57630E048677EA00EA77CD /* Headers */,
+				8D57630F048677EA00EA77CD /* Resources */,
+				8D576311048677EA00EA77CD /* Sources */,
+				8D576313048677EA00EA77CD /* Frameworks */,
+				8D576315048677EA00EA77CD /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AcornQL;
+			productInstallPath = /Library/QuickLook;
+			productName = AcornQL;
+			productReference = 8D576316048677EA00EA77CD /* AcornQL.qlgenerator */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 2CA326220896AD4900168862 /* Build configuration list for PBXProject "AcornQL" */;
+			compatibilityVersion = "Xcode 3.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 089C166AFE841209C02AAC07 /* AcornQL */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D57630D048677EA00EA77CD /* AcornQL */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D57630F048677EA00EA77CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D5B49A804867FD3000E48DA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		8D576315048677EA00EA77CD /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D576311048677EA00EA77CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC9ECE250CA8BEC400DD5B0C /* ACBitmapLayer.m in Sources */,
+				CC9ECE270CA8BEC400DD5B0C /* ACCircle.m in Sources */,
+				CC9ECE290CA8BEC400DD5B0C /* ACGraphic.m in Sources */,
+				CC9ECE2B0CA8BEC400DD5B0C /* ACImage.m in Sources */,
+				CC9ECE2D0CA8BEC400DD5B0C /* ACLayer.m in Sources */,
+				CC9ECE2F0CA8BEC400DD5B0C /* ACLine.m in Sources */,
+				CC9ECE310CA8BEC400DD5B0C /* ACRect.m in Sources */,
+				CC9ECE330CA8BEC400DD5B0C /* ACShapeLayer.m in Sources */,
+				CC9ECE350CA8BEC400DD5B0C /* ACText.m in Sources */,
+				CC9ECE360CA8BEC400DD5B0C /* GeneratePreviewForURL.m in Sources */,
+				CC9ECE370CA8BEC400DD5B0C /* GenerateThumbnailForURL.m in Sources */,
+				CC9ECE380CA8BEC400DD5B0C /* main.c in Sources */,
+				CC68BDEF0DCAB80C006566A7 /* ACShapeImage.m in Sources */,
+				CC0365D30F11C27F00A2F6DC /* FMResultSet.m in Sources */,
+				CC0365D40F11C27F00A2F6DC /* FMDatabase.m in Sources */,
+				CC0365D60F11C27F00A2F6DC /* FMDatabaseAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8D5B49A704867FD3000E48DA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C167EFE841241C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2CA3261F0896AD4900168862 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				INFOPLIST_FILE = "QL-Info.plist";
+				INSTALL_PATH = /Library/QuickLook;
+				PRODUCT_NAME = AcornQL;
+				WRAPPER_EXTENSION = qlgenerator;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		2CA326200896AD4900168862 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				INFOPLIST_FILE = "QL-Info.plist";
+				INSTALL_PATH = /Library/QuickLook;
+				PRODUCT_NAME = AcornQL;
+				WRAPPER_EXTENSION = qlgenerator;
+			};
+			name = Release;
+		};
+		2CA326230896AD4900168862 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					x86_64,
+					i386,
+				);
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.6.sdk";
+			};
+			name = Debug;
+		};
+		2CA326240896AD4900168862 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					x86_64,
+					i386,
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.6.sdk";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CA3261E0896AD4900168862 /* Build configuration list for PBXNativeTarget "AcornQL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CA3261F0896AD4900168862 /* Debug */,
+				2CA326200896AD4900168862 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CA326220896AD4900168862 /* Build configuration list for PBXProject "AcornQL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CA326230896AD4900168862 /* Debug */,
+				2CA326240896AD4900168862 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}

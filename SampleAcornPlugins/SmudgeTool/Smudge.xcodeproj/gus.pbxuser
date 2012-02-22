@@ -1,0 +1,145 @@
+// !$*UTF8*$!
+{
+	089C1669FE841209C02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = CC5FC7600CF8DA960076972D /* Acorn */;
+		activeTarget = 8D5B49AC048680CD000E48DA /* Smudge */;
+		addToTargets = (
+			8D5B49AC048680CD000E48DA /* Smudge */,
+		);
+		codeSenseManager = CC5FC6B20CF8D29A0076972D /* Code sense */;
+		executables = (
+			CC5FC7600CF8DA960076972D /* Acorn */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					144,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					256,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 304015108;
+			PBXWorkspaceStateSaveDate = 304015108;
+		};
+		sourceControlManager = CC5FC6B10CF8D29A0076972D /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8D5B49AC048680CD000E48DA /* Smudge */ = {
+		activeExec = 0;
+	};
+	CC5FC6B10CF8D29A0076972D /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	CC5FC6B20CF8D29A0076972D /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	CC5FC7600CF8DA960076972D /* Acorn */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+			YES,
+		);
+		argumentStrings = (
+			"-plugin /Volumes/srv/Users/gus/builds/Debug/Smudge.acplugin",
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		launchableReference = CC5FC7610CF8DA960076972D /* Acorn.app */;
+		libgmallocEnabled = 0;
+		name = Acorn;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	CC5FC7610CF8DA960076972D /* Acorn.app */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = wrapper.application;
+		name = Acorn.app;
+		path = /Volumes/srv/Users/gus/builds/Debug/Acorn.app;
+		sourceTree = "<absolute>";
+	};
+	CCF900720C29E19900BA85E7 /* Smudge-Info.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {857, 911}}";
+			sepNavSelRange = "{760, 14}";
+			sepNavVisRange = "{0, 801}";
+		};
+	};
+	CCF900800C29E1CB00BA85E7 /* ACSmudgePlugin.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1236, 853}}";
+			sepNavSelRange = "{354, 11}";
+			sepNavVisRange = "{0, 380}";
+		};
+	};
+	CCF900810C29E1CB00BA85E7 /* ACSmudgePlugin.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1432, 4634}}";
+			sepNavSelRange = "{7872, 0}";
+			sepNavVisRange = "{6143, 2562}";
+		};
+	};
+	CCF900860C29E1D800BA85E7 /* ACPlugin.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1225, 3430}}";
+			sepNavSelRange = "{3245, 52}";
+			sepNavVisRange = "{2310, 1645}";
+		};
+	};
+}

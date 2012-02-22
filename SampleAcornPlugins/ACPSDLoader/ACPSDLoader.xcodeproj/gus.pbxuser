@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	089C1669FE841209C02AAC07 /* Project object */ = {
+		activeArchitecturePreference = i386;
+		activeBuildConfigurationName = Debug;
+		activeExecutable = CC7115310F3BD8D100D9DC74 /* Acorn */;
+		activeTarget = 8D5B49AC048680CD000E48DA /* ACPSDLoader */;
+		addToTargets = (
+			8D5B49AC048680CD000E48DA /* ACPSDLoader */,
+		);
+		breakpoints = (
+			CC8CE13B10E2E06300055F80 /* image_resource.c:317 */,
+			CC8CE13F10E2E06500055F80 /* image_resource.c:366 */,
+			CC8CE14910E2E06A00055F80 /* image_resource.c:515 */,
+			CCD79D0410E92F28002B6C6B /* malloc_error_break */,
+			CC6377D011015C6C002F070D /* image_resource.c:498 */,
+			CC6377E411015CCE002F070D /* image_resource.c:491 */,
+			CC63788C11017108002F070D /* layer_mask.c:773 */,
+			CC63790E110176EA002F070D /* layer_mask.c:705 */,
+		);
+		codeSenseManager = CC7114FE0F3BD66800D9DC74 /* Code sense */;
+		executables = (
+			CC7115310F3BD8D100D9DC74 /* Acorn */,
+		);
+		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA1AED706398EBD00589147" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					300,
+					20,
+					201,
+					201,
+					128,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_IgnoreCountID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					10,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					10,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 315893588;
+			PBXWorkspaceStateSaveDate = 315893588;
+		};
+		sourceControlManager = CC7114FD0F3BD66800D9DC74 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8D5B49AC048680CD000E48DA /* ACPSDLoader */ = {
+		activeExec = 0;
+	};
+	CC4136270F7040B500087371 /* libpsd.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1429, 20025}}";
+			sepNavSelRange = "{21483, 22}";
+			sepNavVisRange = "{19573, 2643}";
+		};
+	};
+	CC6377D011015C6C002F070D /* image_resource.c:498 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = CCD5E0BF10A527DF00B3CF60 /* image_resource.c */;
+		functionName = "psd_get_image_resource()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 498;
+		location = ACPSDLoader;
+		modificationTime = 315894336.748999;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	CC6377E411015CCE002F070D /* image_resource.c:491 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = CCD5E0BF10A527DF00B3CF60 /* image_resource.c */;
+		functionName = "psd_get_image_resource()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 491;
+		location = ACPSDLoader;
+		modificationTime = 315894336.749031;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	CC63788C11017108002F070D /* layer_mask.c:773 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		comments = "Speak breakpoint and hit count and auto-continue";
+		condition = CC6378B71101734F002F070D /* XCGDBBreakpointCondition */;
+		continueAfterActions = 1;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = CCD5E0C310A527DF00B3CF60 /* layer_mask.c */;
+		functionName = "psd_get_layer_and_mask()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 773;
+		location = ACPSDLoader;
+		modificationTime = 315894336.749065;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	CC6378B71101734F002F070D /* XCGDBBreakpointCondition */ = {
+		isa = XCGDBBreakpointCondition;
+		conditionString = "";
+	};
+	CC63790E110176EA002F070D /* layer_mask.c:705 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = CCD5E0C310A527DF00B3CF60 /* layer_mask.c */;
+		functionName = "psd_get_layer_info()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 705;
+		location = ACPSDLoader;
+		modificationTime = 315894336.748771;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	CC7114FD0F3BD66800D9DC74 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	CC7114FE0F3BD66800D9DC74 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	CC7115090F3BD81600D9DC74 /* ACPlugin.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {971, 4875}}";
+			sepNavSelRange = "{2431, 5}";
+			sepNavVisRange = "{1983, 798}";
+		};
+	};
+	CC7115310F3BD8D100D9DC74 /* Acorn */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+			"PBXLSLaunchAction-0" = {
+				PBXLSLaunchAction = 0;
+				PBXLSLaunchStartAction = 1;
+				PBXLSLaunchStdioStyle = 2;
+				PBXLSLaunchStyle = 0;
+				class = PBXLSRunLaunchConfig;
+				commandLineArgs = (
+				);
+				displayName = "Executable Runner";
+				environment = {
+				};
+				identifier = com.apple.Xcode.launch.runConfig;
+				remoteHostInfo = "";
+				startActionInfo = "";
+			};
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 0;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		launchableReference = CC7115320F3BD8D100D9DC74 /* Acorn.app */;
+		libgmallocEnabled = 0;
+		name = Acorn;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+			"/Volumes/srv/Users/gus/Projects/acorn/plugin/samples/ACPSDLoader/libpsd/libpsd-0.9/include",
+			"/Volumes/srv/Users/gus/Projects/acorn/plugin/samples/ACPSDLoader/libpsd/libpsd-0.9/src",
+		);
+		variableFormatDictionary = {
+		};
+	};
+	CC7115320F3BD8D100D9DC74 /* Acorn.app */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = wrapper.application;
+		name = Acorn.app;
+		path = /builds/Debug/Acorn.app;
+		sourceTree = "<absolute>";
+	};
+	CC8CE13B10E2E06300055F80 /* image_resource.c:317 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = CCD5E0BF10A527DF00B3CF60 /* image_resource.c */;
+		functionName = "psd_get_image_resource()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 317;
+		location = ACPSDLoader;
+		modificationTime = 315894336.748729;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	CC8CE13F10E2E06500055F80 /* image_resource.c:366 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = CCD5E0BF10A527DF00B3CF60 /* image_resource.c */;
+		functionName = "psd_get_image_resource()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 366;
+		location = ACPSDLoader;
+		modificationTime = 315894336.749047;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	CC8CE14910E2E06A00055F80 /* image_resource.c:515 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = CCD5E0BF10A527DF00B3CF60 /* image_resource.c */;
+		functionName = "psd_get_image_resource()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 515;
+		location = ACPSDLoader;
+		modificationTime = 315894336.748911;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	CCD5E0A710A527DF00B3CF60 /* bevel_emboss.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {971, 10455}}";
+			sepNavSelRange = "{18090, 14}";
+			sepNavVisRange = "{17680, 636}";
+		};
+	};
+	CCD5E0A910A527DF00B3CF60 /* blend.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1291, 19260}}";
+			sepNavSelRange = "{43240, 5}";
+			sepNavVisRange = "{42082, 2463}";
+		};
+	};
+	CCD5E0AA10A527DF00B3CF60 /* boundary.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {852, 52350}}";
+			sepNavSelRange = "{40334, 78}";
+			sepNavVisRange = "{40302, 274}";
+		};
+	};
+	CCD5E0AB10A527DF00B3CF60 /* brightness_contrast.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {971, 1695}}";
+			sepNavSelRange = "{2689, 39}";
+			sepNavVisRange = "{2353, 731}";
+		};
+	};
+	CCD5E0AC10A527DF00B3CF60 /* channel_image.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {971, 15435}}";
+			sepNavSelRange = "{1425, 3}";
+			sepNavVisRange = "{1025, 781}";
+		};
+	};
+	CCD5E0AD10A527DF00B3CF60 /* channel_mixer.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1500, 2325}}";
+			sepNavSelRange = "{1175, 0}";
+			sepNavVisRange = "{0, 2502}";
+		};
+	};
+	CCD5E0AE10A527DF00B3CF60 /* color.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1500, 5955}}";
+			sepNavSelRange = "{1169, 0}";
+			sepNavVisRange = "{0, 2385}";
+		};
+	};
+	CCD5E0AF10A527DF00B3CF60 /* color_balance.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1500, 2865}}";
+			sepNavSelRange = "{1177, 0}";
+			sepNavVisRange = "{0, 2376}";
+		};
+	};
+	CCD5E0B110A527DF00B3CF60 /* color_overlay.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1500, 3285}}";
+			sepNavSelRange = "{1159, 0}";
+			sepNavVisRange = "{0, 2171}";
+		};
+	};
+	CCD5E0B310A527DF00B3CF60 /* descriptor.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1500, 20070}}";
+			sepNavSelRange = "{21186, 0}";
+			sepNavVisRange = "{19940, 1668}";
+		};
+	};
+	CCD5E0B410A527DF00B3CF60 /* drop_shadow.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1500, 6810}}";
+			sepNavSelRange = "{4951, 0}";
+			sepNavVisRange = "{3970, 1564}";
+		};
+	};
+	CCD5E0B510A527DF00B3CF60 /* effects.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1307, 11745}}";
+			sepNavSelRange = "{8127, 0}";
+			sepNavVisRange = "{7519, 1873}";
+		};
+	};
+	CCD5E0B810A527DF00B3CF60 /* gaussian_blur.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {971, 3885}}";
+			sepNavSelRange = "{3442, 0}";
+			sepNavVisRange = "{2826, 728}";
+		};
+	};
+	CCD5E0BB10A527DF00B3CF60 /* gradient_map.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {852, 3975}}";
+			sepNavSelRange = "{9893, 0}";
+			sepNavVisRange = "{1804, 464}";
+		};
+	};
+	CCD5E0BE10A527DF00B3CF60 /* image_data.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1172, 14430}}";
+			sepNavSelRange = "{5071, 17}";
+			sepNavVisRange = "{5189, 1579}";
+		};
+	};
+	CCD5E0BF10A527DF00B3CF60 /* image_resource.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {971, 10860}}";
+			sepNavSelRange = "{21010, 0}";
+			sepNavVisRange = "{20474, 1690}";
+		};
+	};
+	CCD5E0C310A527DF00B3CF60 /* layer_mask.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {971, 14070}}";
+			sepNavSelRange = "{15197, 22}";
+			sepNavVisRange = "{14781, 882}";
+		};
+	};
+	CCD5E0C710A527DF00B3CF60 /* pattern.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {971, 14595}}";
+			sepNavSelRange = "{22650, 4}";
+			sepNavVisRange = "{22284, 662}";
+		};
+	};
+	CCD5E0C910A527DF00B3CF60 /* pattern_overlay.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {852, 3285}}";
+			sepNavSelRange = "{6419, 0}";
+			sepNavVisRange = "{6086, 650}";
+		};
+	};
+	CCD5E0CC10A527DF00B3CF60 /* psd.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1172, 3375}}";
+			sepNavSelRange = "{2134, 0}";
+			sepNavVisRange = "{1145, 1696}";
+		};
+	};
+	CCD5E0D410A527DF00B3CF60 /* psd_stream.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1172, 862}}";
+			sepNavSelRange = "{888, 25}";
+			sepNavVisRange = "{0, 1030}";
+		};
+	};
+	CCD5E0D510A527DF00B3CF60 /* psd_system.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1172, 930}}";
+			sepNavSelRange = "{279, 0}";
+			sepNavVisRange = "{0, 939}";
+		};
+	};
+	CCD5E0D610A527DF00B3CF60 /* psd_system.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1307, 955}}";
+			sepNavSelRange = "{760, 0}";
+			sepNavVisRange = "{0, 798}";
+		};
+	};
+	CCD5E0DC10A527DF00B3CF60 /* stream.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1307, 6075}}";
+			sepNavSelRange = "{5235, 0}";
+			sepNavVisRange = "{4272, 1221}";
+		};
+	};
+	CCD5E0DD10A527DF00B3CF60 /* stroke.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1500, 7950}}";
+			sepNavSelRange = "{16332, 0}";
+			sepNavVisRange = "{14732, 2118}";
+		};
+	};
+	CCD5E0DE10A527DF00B3CF60 /* threshold.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1500, 1290}}";
+			sepNavSelRange = "{1175, 0}";
+			sepNavVisRange = "{0, 2299}";
+		};
+	};
+	CCD5E0DF10A527DF00B3CF60 /* thumbnail.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {732, 7500}}";
+			sepNavSelRange = "{11378, 10}";
+			sepNavVisRange = "{11231, 47}";
+		};
+	};
+	CCD5E0E010A527DF00B3CF60 /* type_tool.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {971, 3270}}";
+			sepNavSelRange = "{3530, 0}";
+			sepNavVisRange = "{2816, 1030}";
+		};
+	};
+	CCD5E11710A5280900B3CF60 /* psd_color.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1172, 1275}}";
+			sepNavSelRange = "{98, 87}";
+			sepNavVisRange = "{0, 2801}";
+		};
+	};
+	CCD5E11910A5280900B3CF60 /* psd_types.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1429, 940}}";
+			sepNavSelRange = "{105, 22}";
+			sepNavVisRange = "{0, 734}";
+		};
+	};
+	CCD79D0410E92F28002B6C6B /* malloc_error_break */ = {
+		isa = PBXSymbolicBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 1;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		hitCount = 0;
+		ignoreCount = 0;
+		location = libSystem.B.dylib;
+		modificationTime = 315894329.662052;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+		symbolName = malloc_error_break;
+	};
+	CCF900800C29E1CB00BA85E7 /* ACPSDLoader.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1193, 969}}";
+			sepNavSelRange = "{311, 0}";
+			sepNavVisRange = "{0, 328}";
+		};
+	};
+	CCF900810C29E1CB00BA85E7 /* ACPSDLoader.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1429, 2880}}";
+			sepNavSelRange = "{3305, 16}";
+			sepNavVisRange = "{2656, 2345}";
+		};
+	};
+}

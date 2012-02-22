@@ -1,0 +1,27 @@
+{
+    IBClasses =     (
+                {
+            CLASS = ACSmudgePlugin;
+            LANGUAGE = ObjC;
+            OUTLETS =             {
+                paletteView = NSView;
+            };
+            SUPERCLASS = NSObject;
+        },
+                {
+            CLASS = FirstResponder;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSObject;
+        },
+                {
+            CLASS = NSApplication;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSResponder;
+        },
+                {
+            CLASS = NSObject;
+            LANGUAGE = ObjC;
+        }
+    );
+    IBVersion = 1;
+}

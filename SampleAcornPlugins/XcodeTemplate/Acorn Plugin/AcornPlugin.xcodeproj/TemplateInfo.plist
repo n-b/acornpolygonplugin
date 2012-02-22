@@ -1,0 +1,12 @@
+{
+	FilesToRename = {
+		"AcornPlugin.m" = "ÇPROJECTNAMEÈ.m";
+		"AcornPlugin.h" = "ÇPROJECTNAMEÈ.h";
+	};
+	FilesToMacroExpand = (
+		"Info.plist",
+		"ÇPROJECTNAMEÈ.m",
+		"ÇPROJECTNAMEÈ.h",
+	);
+	Description = "This project builds a plugin for Acorn.";
+}

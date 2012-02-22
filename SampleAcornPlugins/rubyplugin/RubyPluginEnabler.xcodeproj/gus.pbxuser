@@ -1,0 +1,176 @@
+// !$*UTF8*$!
+{
+	089C1669FE841209C02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeExecutable = CC8E06330C1B82B7007888E2 /* Acorn */;
+		activeSDKPreference = macosx10.5;
+		activeTarget = 8D5B49AC048680CD000E48DA /* RubyPluginEnabler */;
+		addToTargets = (
+			8D5B49AC048680CD000E48DA /* RubyPluginEnabler */,
+		);
+		codeSenseManager = CC8E05E10C1B7FAF007888E2 /* Code sense */;
+		executables = (
+			CC8E06330C1B82B7007888E2 /* Acorn */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					57.5835,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					10,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					10,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 254169771;
+			PBXWorkspaceStateSaveDate = 254169771;
+		};
+		sourceControlManager = CC8E05E00C1B7FAF007888E2 /* Source Control */;
+		userBuildSettings = {
+			SYMROOT = /Volumes/srv/Users/gus/Projects/acorn/plugin/build;
+		};
+	};
+	4E191BAA0B7CBBD7007D95C7 /* ACRubyScript.rb */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {799, 2100}}";
+			sepNavSelRange = "{553, 9}";
+			sepNavVisRect = "{{0, 1584}, {799, 516}}";
+		};
+	};
+	4E191BB70B7CD00B007D95C7 /* ACPlugin.xml */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {960, 366}}";
+			sepNavSelRange = "{191, 104}";
+			sepNavVisRect = "{{0, 0}, {960, 366}}";
+		};
+	};
+	4E85D9F70B785902007290BD /* ACRubyPlugin.rb */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {980, 1064}}";
+			sepNavSelRange = "{461, 130}";
+			sepNavVisRect = "{{0, 0}, {980, 749}}";
+		};
+	};
+	4EC18A8F0B730D230004D480 /* ACRubyPluginEnabler.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1242, 686}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 507}";
+			sepNavVisRect = "{{0, 80}, {745, 522}}";
+		};
+	};
+	4EC18AA60B7313D70004D480 /* acr_init.rb */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1288, 844}}";
+			sepNavSelRange = "{217, 11}";
+			sepNavVisRect = "{{0, 0}, {1288, 844}}";
+		};
+	};
+	8D5B49AC048680CD000E48DA /* RubyPluginEnabler */ = {
+		activeExec = 0;
+	};
+	CC45EBBF0C1B9E34006F7EDE /* ACPlugin.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1242, 3528}}";
+			sepNavSelRange = "{771, 45}";
+			sepNavVisRange = "{437, 780}";
+		};
+	};
+	CC8E05E00C1B7FAF007888E2 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+		scmType = "";
+	};
+	CC8E05E10C1B7FAF007888E2 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	CC8E06330C1B82B7007888E2 /* Acorn */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		launchableReference = CC8E06340C1B82B7007888E2 /* Acorn.app */;
+		libgmallocEnabled = 0;
+		name = Acorn;
+		savedGlobals = {
+		};
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	CC8E06340C1B82B7007888E2 /* Acorn.app */ = {
+		isa = PBXFileReference;
+		explicitFileType = wrapper.application;
+		name = Acorn.app;
+		path = /Volumes/srv/Users/gus/builds/Debug/Acorn.app;
+		sourceTree = "<absolute>";
+	};
+}

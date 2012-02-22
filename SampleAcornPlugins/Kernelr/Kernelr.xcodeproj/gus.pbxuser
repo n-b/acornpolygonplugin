@@ -1,0 +1,223 @@
+// !$*UTF8*$!
+{
+	089C1669FE841209C02AAC07 /* Project object */ = {
+		activeArchitecturePreference = x86_64;
+		activeBuildConfigurationName = Debug;
+		activeExecutable = CCA7CF050CBD9B9A00953A42 /* Acorn */;
+		activeTarget = 8D5B49AC048680CD000E48DA /* Kernelr */;
+		addToTargets = (
+			8D5B49AC048680CD000E48DA /* Kernelr */,
+		);
+		breakpoints = (
+		);
+		codeSenseManager = CCA7CF120CBD9BB900953A42 /* Code sense */;
+		executables = (
+			CCA7CF050CBD9B9A00953A42 /* Acorn */,
+		);
+		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA1AED706398EBD00589147" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					198,
+					20,
+					99,
+					99,
+					29,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_IgnoreCountID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					57.58349609375,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					10,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 304014789;
+			PBXWorkspaceStateSaveDate = 304014789;
+		};
+		sourceControlManager = CCA7CF110CBD9BB900953A42 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8D5B49AC048680CD000E48DA /* Kernelr */ = {
+		activeExec = 0;
+	};
+	CC5BE6A20CC035F500BF77C8 /* KView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1351, 837}}";
+			sepNavSelRange = "{328, 0}";
+			sepNavVisRange = "{0, 576}";
+			sepNavVisRect = "{{0, 0}, {814, 594}}";
+		};
+	};
+	CC5BE6A30CC035F500BF77C8 /* KView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {823, 2100}}";
+			sepNavSelRange = "{3196, 0}";
+			sepNavVisRange = "{2918, 591}";
+			sepNavVisRect = "{{0, 275}, {925, 621}}";
+		};
+	};
+	CCA7CF050CBD9B9A00953A42 /* Acorn */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+			YES,
+		);
+		argumentStrings = (
+			"-plugin /builds/Debug/Kernelr.acplugin",
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+			"PBXLSLaunchAction-0" = {
+				PBXLSLaunchAction = 0;
+				PBXLSLaunchStartAction = 1;
+				PBXLSLaunchStdioStyle = 2;
+				PBXLSLaunchStyle = 0;
+				class = PBXLSRunLaunchConfig;
+				commandLineArgs = (
+				);
+				displayName = "Executable Runner";
+				environment = {
+				};
+				identifier = com.apple.Xcode.launch.runConfig;
+				remoteHostInfo = "";
+				startActionInfo = "";
+			};
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		launchableReference = CCA7CF060CBD9B9A00953A42 /* Acorn.app */;
+		libgmallocEnabled = 0;
+		name = Acorn;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	CCA7CF060CBD9B9A00953A42 /* Acorn.app */ = {
+		isa = PBXFileReference;
+		explicitFileType = wrapper.application;
+		name = Acorn.app;
+		path = /builds/Debug/Acorn.app;
+		sourceTree = "<absolute>";
+	};
+	CCA7CF110CBD9BB900953A42 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+		scmType = "";
+	};
+	CCA7CF120CBD9BB900953A42 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	CCA7CF1C0CBD9C1A00953A42 /* KernelrKontroler.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1285, 904}}";
+			sepNavSelRange = "{578, 0}";
+			sepNavVisRange = "{0, 848}";
+			sepNavVisRect = "{{0, 0}, {1184, 867}}";
+		};
+	};
+	CCA7CF1D0CBD9C1A00953A42 /* KernelrKontroler.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1672, 5340}}";
+			sepNavSelRange = "{12949, 0}";
+			sepNavVisRange = "{11534, 1966}";
+			sepNavVisRect = "{{0, 0}, {1184, 867}}";
+		};
+	};
+	CCF900720C29E19900BA85E7 /* Info.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {758, 641}}";
+			sepNavSelRange = "{479, 0}";
+			sepNavVisRect = "{{0, 0}, {758, 641}}";
+		};
+	};
+	CCF900800C29E1CB00BA85E7 /* Kernelr.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1039, 833}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 352}";
+			sepNavVisRect = "{{0, 0}, {758, 641}}";
+		};
+	};
+	CCF900810C29E1CB00BA85E7 /* Kernelr.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1039, 833}}";
+			sepNavSelRange = "{1056, 0}";
+			sepNavVisRange = "{0, 1141}";
+			sepNavVisRect = "{{0, 0}, {1184, 867}}";
+		};
+	};
+	CCF900860C29E1D800BA85E7 /* ACPlugin.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1470, 4725}}";
+			sepNavSelRange = "{6784, 13}";
+			sepNavVisRange = "{5981, 1619}";
+			sepNavVisRect = "{{0, 1400}, {1017, 913}}";
+		};
+	};
+}

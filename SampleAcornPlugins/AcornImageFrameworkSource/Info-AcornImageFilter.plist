@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>AcornImageFilter</string>
+	<key>CFBundleGetInfoString</key>
+	<string></string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string>com.flyingmeat.AcornImageFilter</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>AcornImageFilter</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string></string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>NSBGOnly</key>
+	<string>1</string>
+	<key>NSExtensions</key>
+	<dict/>
+	<key>NSMainNibFile</key>
+	<string>AcornImageFilter</string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+	<key>NSServices</key>
+	<array>
+		<dict>
+			<key>NSPortName</key>
+			<string>SimpleService</string>
+			<key>NSFilter</key>
+			<string>convertData</string>
+			<key>NSReturnTypes</key>
+			<array>
+				<string>public.tiff</string>
+			</array>
+			<key>NSSendTypes</key>
+			<array>
+				<string>NSTypedFilenamesPboardType:acorn</string>
+				<string>NSTypedFilenamesPboardType:ACORN</string>
+				<string>com.flyingmeat.acorn</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

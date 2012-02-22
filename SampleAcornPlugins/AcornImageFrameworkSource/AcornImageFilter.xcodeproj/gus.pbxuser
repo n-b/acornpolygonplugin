@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	036354BFFEEE2C127F000001 /* Project object */ = {
+		activeBuildConfigurationName = Development;
+		activeExecutable = CC461E211085036900D29B36 /* AcornImageFilter */;
+		activeTarget = 733BB37D049A8F4600C919A3 /* AcornImageFilter */;
+		addToTargets = (
+			45822ADA0D6A260B00BB9A38 /* AcornImage */,
+		);
+		codeSenseManager = CC461E2A1085036C00D29B36 /* Code sense */;
+		executables = (
+			CC461E211085036900D29B36 /* AcornImageFilter */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					229,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					513,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					301,
+					60,
+					20,
+					48.16259765625,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 277186721;
+			PBXWorkspaceStateSaveDate = 277186721;
+		};
+		sourceControlManager = CC461E291085036C00D29B36 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	45822AD60D6A260B00BB9A38 /* Headers */ = {
+		isa = PBXHeadersBuildPhase;
+		buildActionMask = 2147483647;
+		files = (
+		);
+		runOnlyForDeploymentPostprocessing = 0;
+	};
+	45822AD70D6A260B00BB9A38 /* Resources */ = {
+		isa = PBXResourcesBuildPhase;
+		buildActionMask = 2147483647;
+		files = (
+		);
+		runOnlyForDeploymentPostprocessing = 0;
+	};
+	45822AD80D6A260B00BB9A38 /* Sources */ = {
+		isa = PBXSourcesBuildPhase;
+		buildActionMask = 2147483647;
+		files = (
+		);
+		runOnlyForDeploymentPostprocessing = 0;
+	};
+	45822AD90D6A260B00BB9A38 /* Frameworks */ = {
+		isa = PBXFrameworksBuildPhase;
+		buildActionMask = 2147483647;
+		files = (
+		);
+		runOnlyForDeploymentPostprocessing = 0;
+	};
+	45822ADA0D6A260B00BB9A38 /* AcornImage */ = {
+		isa = PBXNativeTarget;
+		activeExec = 0;
+		buildConfigurationList = 45822ADF0D6A260B00BB9A38 /* Build configuration list for PBXNativeTarget "AcornImage" */;
+		buildPhases = (
+			45822AD60D6A260B00BB9A38 /* Headers */,
+			45822AD70D6A260B00BB9A38 /* Resources */,
+			45822AD80D6A260B00BB9A38 /* Sources */,
+			45822AD90D6A260B00BB9A38 /* Frameworks */,
+		);
+		buildRules = (
+		);
+		dependencies = (
+		);
+		name = AcornImage;
+		productName = AcornImage;
+		productReference = CCDDDE87108588A1005DE5F4 /* AcornImage.framework */;
+		productType = "com.apple.product-type.framework";
+	};
+	45822ADD0D6A260B00BB9A38 /* Debug */ = {
+		isa = XCBuildConfiguration;
+		buildSettings = {
+			ARCHS = (
+				x86_64,
+				i386,
+			);
+			COPY_PHASE_STRIP = NO;
+			DYLIB_COMPATIBILITY_VERSION = 1;
+			DYLIB_CURRENT_VERSION = 1;
+			FRAMEWORK_VERSION = A;
+			GCC_DYNAMIC_NO_PIC = NO;
+			GCC_ENABLE_FIX_AND_CONTINUE = YES;
+			GCC_MODEL_TUNING = G5;
+			GCC_OPTIMIZATION_LEVEL = 0;
+			GCC_PRECOMPILE_PREFIX_HEADER = YES;
+			GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+			INFOPLIST_FILE = Info.plist;
+			INSTALL_PATH = "@executable_path/../Frameworks";
+			OTHER_LDFLAGS = (
+				"-framework",
+				Foundation,
+				"-framework",
+				AppKit,
+			);
+			PREBINDING = NO;
+			PRODUCT_NAME = AcornImage;
+			ZERO_LINK = YES;
+		};
+		name = Debug;
+	};
+	45822ADE0D6A260B00BB9A38 /* Release */ = {
+		isa = XCBuildConfiguration;
+		buildSettings = {
+			ARCHS = (
+				x86_64,
+				i386,
+			);
+			COPY_PHASE_STRIP = YES;
+			DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+			DYLIB_COMPATIBILITY_VERSION = 1;
+			DYLIB_CURRENT_VERSION = 1;
+			FRAMEWORK_VERSION = A;
+			GCC_ENABLE_FIX_AND_CONTINUE = NO;
+			GCC_MODEL_TUNING = G5;
+			GCC_PRECOMPILE_PREFIX_HEADER = YES;
+			GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+			INFOPLIST_FILE = Info.plist;
+			INSTALL_PATH = "@executable_path/../Frameworks";
+			OTHER_LDFLAGS = (
+				"-framework",
+				Foundation,
+				"-framework",
+				AppKit,
+			);
+			PREBINDING = NO;
+			PRODUCT_NAME = AcornImage;
+			ZERO_LINK = NO;
+			fasmblocks = "-fasm-blocks";
+		};
+		name = Release;
+	};
+	45822ADF0D6A260B00BB9A38 /* Build configuration list for PBXNativeTarget "AcornImage" */ = {
+		isa = XCConfigurationList;
+		buildConfigurations = (
+			45822ADD0D6A260B00BB9A38 /* Debug */,
+			45822ADE0D6A260B00BB9A38 /* Release */,
+		);
+		defaultConfigurationIsVisible = 0;
+		defaultConfigurationName = Release;
+	};
+	733BB37D049A8F4600C919A3 /* AcornImageFilter */ = {
+		activeExec = 0;
+		executables = (
+			CC461E211085036900D29B36 /* AcornImageFilter */,
+		);
+	};
+	CC461E211085036900D29B36 /* AcornImageFilter */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+			YES,
+		);
+		argumentStrings = (
+			/Volumes/srv/Users/gus/Pictures/MyImage.acorn,
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = AcornImageFilter;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	CC461E291085036C00D29B36 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	CC461E2A1085036C00D29B36 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	CC461E2B1085037C00D29B36 /* AcornImageFilter_main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1533, 1110}}";
+			sepNavSelRange = "{628, 0}";
+			sepNavVisRange = "{0, 1872}";
+		};
+	};
+	CC461E571085052000D29B36 /* FMDatabase.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {869, 10710}}";
+			sepNavSelRange = "{60, 16}";
+			sepNavVisRange = "{0, 983}";
+		};
+	};
+	CC461E6A108505C400D29B36 /* ACImage.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {869, 794}}";
+			sepNavSelRange = "{797, 13}";
+			sepNavVisRange = "{0, 859}";
+		};
+	};
+	CC461E6B108505C400D29B36 /* ACImage.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1058, 4365}}";
+			sepNavSelRange = "{5904, 9}";
+			sepNavVisRange = "{5455, 385}";
+		};
+	};
+	CCDDDE87108588A1005DE5F4 /* AcornImage.framework */ = {
+		isa = PBXFileReference;
+		explicitFileType = wrapper.framework;
+		includeInIndex = 0;
+		name = AcornImage.framework;
+		path = /builds/Release/AcornImage.framework;
+		sourceTree = "<absolute>";
+	};
+}
