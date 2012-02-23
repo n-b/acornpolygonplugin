@@ -9,10 +9,6 @@
 
 @implementation AcornPolygonPlugin
 
-+ (void) initialize
-{
-}
-
 + (id) plugin {
     return [[[self alloc] init] autorelease];
 }
@@ -25,23 +21,34 @@
     return self;
 }
 
-
-
-
-- (void) willRegister:(id<ACPluginManager>)pluginManager {
+- (void) willRegister:(id<ACPluginManager>)pluginManager
+{
+    [pluginManager addFilterMenuTitle:@"Polygon Shape"
+                   withSuperMenuTitle:@"Generator"
+                               target:self
+                               action:@selector(showPolygonGenerator:userObject:)
+                        keyEquivalent:@"P"
+            keyEquivalentModifierMask:NSCommandKeyMask|NSAlternateKeyMask|NSShiftKeyMask
+                           userObject:nil];
 }
 
+
 - (void) didRegister {
-    
 }
 
 - (NSNumber*) worksOnShapeLayers:(id)userObject {
-    return [NSNumber numberWithBool:YES];
+    return @YES;
 }
 
-
-- (NSString *) toolName {
-    return @"Distort";
+- (CIImage*) showPolygonGenerator:(id<ACShapeLayer>)layer_ userObject:(id)userObject_
+{
+    if([layer_ layerType] == ACShapeLayer)
+    {
+        NSLog(@"ShaperLayer whit graphics : %@",[layer_ graphics]);
+        [layer_ addBezierPath:[NSBezierPath bezierPathWithRect:NSMakeRect(0, 0, 19, 20)]];
+    }
+    
+    return nil;
 }
 
 @end
